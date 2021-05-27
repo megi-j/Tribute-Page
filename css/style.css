@@ -1,4 +1,4 @@
-.container {
+#main {
     max-width: 1920px;
     width: 100%;
     margin: 0 auto;
@@ -8,7 +8,7 @@
     justify-content: center;
     display: flex;
 }
-.title {
+#title {
     text-align: center;
     height: 100px;
     display: flex;
@@ -16,20 +16,20 @@
     flex-wrap: wrap;
     align-content: space-around;
 }
-.title h1 {
+#title h1 {
     font-family: 'Roboto';
     font-size: 30px;
     font-weight: 500;
     margin-top: 3%;
 }
-.title p {
+#title p {
     margin-top: 20px;
     font-family: 'Roboto';
     font-size: 15px;
     opacity: 80%;
     font-weight: 300;
 }
-figure {
+#img-div {
     margin-top: 3% auto;
     justify-content: center;
     flex-wrap: wrap;
@@ -37,11 +37,11 @@ figure {
     max-width: 720px;
     width: 100%;
 }
-img {
+#image {
     max-width: 708px;
     width: 100%;
 }
-figcaption {
+#img-caption {
     font-family: 'Roboto';
     font-size: 13px;
     margin-top: 1%;
@@ -49,12 +49,12 @@ figcaption {
     padding: 2%;
     font-weight: 300;
 }
-section {
+#tribute-info {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-section h2 {
+#tribute-info h2 {
     font-family: 'Roboto';
     font-size: 25px;
     font-weight: 500;
@@ -78,22 +78,22 @@ q {
     font-weight: 300;
     opacity: 90%;
 }
-section p {
+#tribute-info p {
     margin-top: 2%;
     margin-bottom: 3%;
     font-family: 'Roboto';
     font-weight: 300;
 }
-a {
+#tribute-link {
     color: royalblue;
     font-weight: 500;
     font-family: 'Roboto';
 }
 @media(max-width:480px){
-    section h2 {
+    #tribute-info h2 {
         font-size: 18px;
     }
-    img, q, section p {
+    image, q, #tribute-info p {
         padding: 2%;
     }
     ul {
